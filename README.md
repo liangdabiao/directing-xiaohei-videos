@@ -6,6 +6,14 @@
 
 B站视频demo效果： https://www.bilibili.com/video/BV1uaYL6VEbC/?vd_source=86926e418c83af75f6850b5546388a79
 
+## 快捷使用：
+
+1 请先安装 apiz cli :https://apiz.ai/  (如果你的agent能够生成视频和语音，那么告知ai，就不需要使用apiz)
+
+2 安装好本skill后，直接在codex/workbuddy等命令： 利用 directing-xiaohei-videos skill制作短视频： 《穷爸爸富爸爸》的核心原理。  
+
+3 等一会，视频就制作好！
+
 ## 小黑是谁？
 
 小黑是视频里唯一的主角：一个**实心黑色的小家伙**，两只白色小圆眼睛、两条细腿，表情永远淡淡的。
