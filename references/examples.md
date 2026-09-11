@@ -39,6 +39,46 @@ User: “9:16，中文。”
 
 **场间交接：** 1→2 凹坑出现↔凹坑扩大滴落；2→3 蒸汽上升↔分屏右侧蒸汽延续；3→4 缩小的冰淇淋↔只剩糖纸；4→5 红进度条清空↔小黑转身面向机器；5→6 新冰淇淋举起↔举高对镜头；6→片尾 渐白↔白底文字卡。
 
+## Phase B — 六场提示词
+
+### 默认免费管线交付（每场 = 首帧图提示词 + 运动提示词），以第 1、4 场为例
+
+**场景 1 · 首帧图提示词**
+
+```text
+Minimalist black hand-drawn illustration on a pure white background. Slightly wobbly pen strokes, uniform line weight. Lots of empty white space.
+
+小黑, a small solid-black creature with two round white dot eyes facing the viewer, tiny thin legs, short thin arms, a blank serious expression, and a bumpy, slightly uneven hand-drawn outline. The black fill is flat and matte, with no glow, no highlights, no gradients. 小黑 is a simple egg-shaped black blob, NOT furry, NOT spiky, NOT hairy; its eyes are two small plain white dots, NOT large cartoon eyes. In this first frame 小黑 sits on a small stool at the center of a tiny outline-drawn hut, holding a tea cup, while two plain vertical pillars hold up the roof, one on the left and one on the right. The whole hut fills the upper two thirds; the bottom third is empty white space.
+
+No text, no letters, no numbers, no shadows, no gradients, no paper texture, no people, not cute.
+```
+
+**场景 1 · 运动提示词（keyframe）**
+
+```text
+小黑 takes one slow sip of tea, then lowers the cup and looks up at the roof. A short orange stroke traces the left pillar, then the right pillar. A thin red crack line appears on the left pillar and the roof tilts slightly. Simple 2D hand-drawn motion on pure white background, no camera shake, no new objects, no text.
+```
+
+**场景 4 · 首帧图提示词**
+
+```text
+Minimalist black hand-drawn illustration on a pure white background. Slightly wobbly pen strokes, uniform line weight. Lots of empty white space.
+
+小黑, a small solid-black creature with two round white dot eyes facing the viewer, tiny thin legs, short thin arms, a blank serious expression, and a bumpy, slightly uneven hand-drawn outline. The black fill is flat and matte. 小黑 is a simple egg-shaped black blob, NOT furry, NOT spiky, NOT hairy; its eyes are two small plain white dots, NOT large cartoon eyes. In this first frame 小黑 walks along a ground line carrying an empty simple back rack, with one thin line straw already resting on the rack.
+
+No text, no letters, no numbers, no shadows, no gradients, no paper texture, no people, not cute.
+```
+
+**场景 4 · 运动提示词（keyframe）**
+
+```text
+More thin straws keep falling from above onto the rack, one by one, and the stack grows taller. 小黑 slows down, knees bending, body leaning forward under the growing load. Then one last tiny straw floats down gently; the moment it lands, 小黑 collapses flat on the ground and the straws scatter around, tinted red. Simple 2D hand-drawn motion on pure white background, no camera shake, no new objects, no text.
+```
+
+（其余四场按同一格式从分镜表展开；场景参数：seconds 取旁白时长+0.5s 取整，size "720P"，aspect_ratio "9:16"。）
+
+### 付费备选：12 项完整文本提示词（节选两条，h3/gemini 用）
+
 ## Phase B — 六条提示词（节选两条，其余按同合同展开）
 
 ### Prompt 1
