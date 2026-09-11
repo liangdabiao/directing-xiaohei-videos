@@ -80,3 +80,8 @@ B站视频demo效果： https://www.bilibili.com/video/BV1uaYL6VEbC/?vd_source=8
 | references/production-pipeline.md | 生成和合成的具体操作参数 |
 | references/qa-checklist.md | 做完之后怎么检查 |
 | references/examples.md | 一个从头到尾的完整例子 |
+
+
+## 致谢
+
+https://linux.do 社区支持
